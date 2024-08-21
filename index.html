@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+</head>
+<body>
+
+
+    <!-- <nav>
+        <div id="navbar-section">
+            <div id="logo">
+                <a href="#home-section">
+                    <h1 style="font-size: xx-large;">Vamshi</h1>
+                    <p>Undergrad student</p>
+                </a>
+            </div>
+            <ul>
+                <li><a href="#home-section" class="active">Home</a></li>
+                <li><span></span><a href="#about-section">About</a></li>
+                <li><span></span><a href="#skill-section">Skills</a></li>
+                <li><span></span><a href="#projects-section">Projects</a></li>
+                <li><span></span><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+ -->
+
+
+
+
+ <header id="navbar-section">
+    <div id="logo">
+        <a href="#home-section">
+            <h1 style="font-size: xx-large;">Vamshi</h1>
+            <p>Undergrad student</p>
+        </a>
+    </div>
+    <div id="menu-icon" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul id="navbar-menu">
+        <li><a href="#home-section" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about-section" onclick="closeMenu()">About</a></li>
+        <li><a href="#skill-section" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#projects-section" onclick="closeMenu()">Projects</a></li>
+        <li><a href="#contact-section" onclick="closeMenu()">Contact</a></li>
+    </ul>
+</header>
+
+
+
+
+    <!-- Home section -->
+
+
+    <section id="home-section">
+        <div id="home-box">
+            <div id="home-heading">
+                <h2>Welcome to my PortFolio</h2>
+                <h1>Hello! This is Vamshi</h1>
+            </div>
+            <div id="home-intro">
+                <p>Im an Undergrad student! aspiring to build a career in <span>Fullstack Webdevelopment</span>. <br>
+                    I continuosly thrive to gain knowledge over multiple disciplines of computer science.</p>
+                    <button id="home-btn"><a href="#about-section">Know more</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+
+    <section id="about-section">
+        <h1 id="about-head">About</h1>
+        <div id="about-grid">
+            <div id="about-intro" class="item item1">
+                <h1>Introduction</h1>
+                <p>Hi Iam <span style="font-weight: bolder;">Vamshi</span> and iam pursuing a degree in B.tech at CMR college of engineering and technology. Eager to apply academic knowledge and develop practical skills in Fullstack development. Known for <span style="font-weight: bolder;">>strong Java programming, Datastructures and algorithms web development, communication, problem-solving abilities and a passion for fullstack web development</span>. Seeking internship opportunities to contribute to company while gaining hands-on experience and furthering professional growth.</p>
+            </div>
+            <div id="about-certificate"  class="item item2">
+                <h1>Certifications And Experience</h1>
+                <ol>
+                    <li>Amazon AWS and AIML Virtual Internship from AICTE</li>
+                    <li>Applications and Usecases Master From AICTE</li>
+                    <li>Ultimate Frontend Bootcamp From Udemy</li>
+                </ol>
+            </div>
+            <div id="about-education" class="item item3">
+                <h1>Education</h1>
+                <div id="edu-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Degree</th>
+                                <th>Institution</th>
+                                <th>Year</th>
+                                <th>Location</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bachelor of technology in CSE(AIML)</td>
+                                <td>CMR College Of Engineering And Technology</td>
+                                <td>2022-present</td>
+                                <td>Hyderabad</td>
+                                <td>7.96</td>
+                            </tr>
+                            <tr>
+                                <td>Intermediate Schooling</td>
+                                <td>Alphores Junior College</td>
+                                <td>2022</td>
+                                <td>Karimnagar</td>
+                                <td>8.13</td>
+                            </tr>
+                            <tr>
+                                <td>Secondary Schooling</td>
+                                <td>ZP High School</td>
+                                <td>2020</td>
+                                <td>Mallial</td>
+                                <td>9.71</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="about-extras" class="item item4">
+                <h1>Hobbies, Interests & social links</h1>
+                <ul>
+                    <li>Reading Books</li>
+                    <li>Listening Music</li>
+                    <li>Active Learning</li>
+                    <li>Debating & Group discussions</li>
+                    <li>Programming</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill-section -->
+
+    <section id="skill-section">
+        <h1 id="head">Skills</h1>
+        <div id="skills">
+            <div id="skill1">
+                <h1>Programming Languages</h1>
+                <p>
+                    Proficient in C/C++, Java, and JavaScript, with a solid understanding of syntax, object-oriented programming, and debugging. Experienced in writing clean, efficient code for various applications, including web development.
+                </p>
+            </div>
+            <div id="skill2">
+                <h1>Data Structures And Algorithms</h1>
+                <p>
+                    Strong foundation in data structures (arrays, linked lists, trees, graphs) and algorithms (sorting, searching, dynamic programming). Able to design and implement efficient solutions to complex problems, optimizing performance and scalability.
+                </p>
+            </div>
+            <div id="skill3">
+                <h1>Fullstack Web Development</h1>
+                <p>
+                    Skilled in building and maintaining responsive web applications using technologies like HTML, CSS , JavaScript, JQuery, Bootstrap, ReactJs for Frontend And Node.js, Express.js for backend And SQL NoSQL for DB. Comfortable with both front-end and back-end development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects-section -->
+
+    <section id="projects-section">
+        <h1 id="heading">Projects</h1>
+        <div id="projects">
+            <div id="project1">
+                <div id="project1-info">
+                    <h1 id="project-head">Facial Expression To Emoji using DL</h1>
+                    <p id="project-tag">
+                        **Expression to Emoji:** Developed a machine learning-based web application that converts facial expressions into corresponding emojis in real-time using OpenCV and TensorFlow. The project demonstrates proficiency in computer vision and neural networks.
+                    </p>
+                </div>
+            </div>
+            <div id="project2">
+                <div id="project2-info">
+                    <h1 id="project-head">Personal portfolio</h1>
+                    <p id="project-tag">
+                        **Personal Portfolio:** Created a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, and experience. The site features a clean design and interactive elements, highlighting my front-end development expertise.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section id="contact-section">
+        <h1>Contact</h1>
+        <div id="contact-form">
+            <form action="./action.php">
+                <label for="name">Enter name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <label for="email">Enter email</label>
+                <input type="text" id="mail" name="email" placeholder="Enter your email">
+                <label for="subject">Subject</label>
+                <textarea id="subject" id="textarea" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h4>Contact Me</h4>
+                <p>Email: <a href="mailto:vamshibituku@gmail.com">vamshibituku@gmail.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+function toggleMenu() {
+    var menu = document.getElementById('navbar-menu');
+    menu.classList.toggle('show');
+}
+
+function closeMenu() {
+    var menu = document.getElementById('navbar-menu');
+    menu.classList.remove('show');
+}
+
+    </script>
+</body>
+</html>
